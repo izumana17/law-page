@@ -1,0 +1,38 @@
+.main-bg{
+    background: #B68C5A;
+    
+    
+}
+.t-bg{
+   
+        --bs-text-opacity: 1;
+        color:  #B68C5A, var(--bs-text-opacity) !important;
+     
+
+}
+.font{
+    font-family: 'EB Garamond';
+}
+/* .card-bg{
+    background-image: url('../images/banner.png');
+    height: 550px;
+} */
+.cd:hover{
+    background-color: rgb(219, 218, 218);
+}
+
+/* .contact{ */
+    /* margin: 103px 301px; */
+    /* display: flex;
+    flex:1; */
+    /* margin: 45px 180px; */
+    
+    
+    /* } */
+    .contact> div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* gap: 5px; */
+        
+    
+    }
